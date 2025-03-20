@@ -15,6 +15,7 @@
     "@emotion/cache": "^11.14.0",
     "@emotion/react": "^11.14.0",
     "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.8",
     "@mui/material": "^6.4.8",
     "@mui/material-nextjs": "^6.4.3",
     "modern-normalize": "^3.0.1",
@@ -28,12 +29,12 @@
     "@types/react": "^19",
     "@types/react-dom": "^19",
     "eslint": "^9",
+    "eslint-config-next": "15.2.3",
     "eslint-config-prettier": "^10.0.2",
     "eslint-plugin-react-hooks": "^5.1.0",
-    "eslint-plugin-react-refresh": "^0.4.19",
-    "eslint-config-next": "15.2.3",
-    "typescript-eslint": "^8.24.1",
+    "eslint-plugin-unused-imports": "^4.1.4",
     "prettier": "^3.5.2",
-    "typescript": "^5"
+    "typescript": "^5",
+    "typescript-eslint": "^8.24.1"
   }
 }
