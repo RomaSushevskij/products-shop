@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Products Shop
 
-## Getting Started
+## Описание
+Проект представляет собой веб-приложение на React с использованием Next.js, которое отображает список товарных позиций с возможностью их сортировки, фильтрации и добавления в корзину.
 
-First, run the development server:
+## Функционал
+1. **Сортировка товаров**
+    - По названию (по возрастанию/убыванию)
+    - По цене (по возрастанию/убыванию)
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+2. **Фильтрация товаров**
+    - По цене (от и до)
+    - По признаку "Новинка" (Switch)
+
+3. **Корзина**
+    - Добавление товара в корзину
+    - Отображение общего количества и стоимости товаров в корзине
+    - Увеличение/уменьшение количества товара в корзине
+
+4. **Детальная страница товара**
+    - Название
+    - Цена
+    - Описание
+
+5. **Вывод списка товаров**
+    - Название
+    - Цена
+    - Бренд
+
+## Технологии
+- **React** (v19.0.0)
+- **Next.js** (v15.2.3)
+- **TypeScript**
+- **SCSS**
+- **Material UI** (mui.com)
+- **json-server** (имитация API на клиенте)
+
+## Установка и запуск
+
+### 1. Клонирование репозитория
+```sh
+git clone git@github.com:RomaSushevskij/products-shop.git
+cd products-shop
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 2. Установка зависимостей
+```sh
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 3. Запуск проекта в режиме разработки
+```sh
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Этот скрипт запустит два процесса:
+- **dev:client**: Next.js в режиме разработки с Turbopack
+- **dev:server**: JSON Server на порту 3100
 
-## Learn More
+### 4. Сборка проекта
+```sh
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+### 5. Запуск production-сборки
+```sh
+npm run start
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Code Style
+- Используется ESLint и Prettier
+- Использование хуков и контекста для управления состоянием
