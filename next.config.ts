@@ -1,5 +1,5 @@
 import type { NextConfig } from "next";
-const path = require("path");
+import path from "path";
 
 const nextConfig: NextConfig = {
   webpack(config) {
@@ -9,6 +9,9 @@ const nextConfig: NextConfig = {
     };
 
     return config;
+  },
+  async redirects() {
+    return [{ source: "/", destination: "/products", permanent: true }];
   },
 };
 

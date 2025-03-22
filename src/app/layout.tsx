@@ -4,6 +4,7 @@ import { AppRouterCacheProvider } from "@mui/material-nextjs/v15-appRouter";
 
 import "./globals.css";
 import { AppLayout } from "@/widgets/layouts/app-layout";
+import { ShoppingCartProvider } from "@/shared/providers/shopping-cart-provider";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -29,7 +30,9 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
         <AppRouterCacheProvider>
-          <AppLayout>{children}</AppLayout>
+          <ShoppingCartProvider>
+            <AppLayout>{children}</AppLayout>
+          </ShoppingCartProvider>
         </AppRouterCacheProvider>
       </body>
     </html>

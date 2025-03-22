@@ -1,0 +1,164 @@
+{
+  "products": [
+    {
+      "id": "f1d7c7c4-70a2-4b7d-8c68-1e6a7b9d3f5a",
+      "title": "Smartphone X",
+      "price": 999,
+      "brand": "TechCorp",
+      "isNew": true,
+      "description": "A high-end smartphone with cutting-edge features."
+    },
+    {
+      "id": "1a4e77e3-8216-41d9-bc9c-d1cf5bc78bfa",
+      "title": "Laptop Pro",
+      "price": 1499,
+      "brand": "MegaTech",
+      "isNew": false,
+      "description": "A powerful laptop for professionals, perfect for work and play."
+    },
+    {
+      "id": "03e9d2a2-2d6a-4b8b-9e1b-57368033f849",
+      "title": "Wireless Headphones",
+      "price": 199,
+      "brand": "AudioMax",
+      "isNew": true,
+      "description": "Premium wireless headphones with noise cancellation."
+    },
+    {
+      "id": "e6eaeb5c-3b3d-4f78-8490-3e5a8df04984",
+      "title": "Gaming Mouse",
+      "price": 79,
+      "brand": "GamerGear",
+      "isNew": false,
+      "description": "Ergonomically designed mouse for optimal gaming performance."
+    },
+    {
+      "id": "d2c6901a-6f75-4c0f-bb41-5485ee0b4c94",
+      "title": "Mechanical Keyboard",
+      "price": 129,
+      "brand": "KeyMaster",
+      "isNew": true,
+      "description": "A mechanical keyboard with customizable RGB lighting."
+    },
+    {
+      "id": "8670a6be-d168-4ebf-96a6-ef456a40d9cb",
+      "title": "Smartwatch S",
+      "price": 299,
+      "brand": "WearableTech",
+      "isNew": false,
+      "description": "A stylish smartwatch with health and fitness tracking features."
+    },
+    {
+      "id": "33c9e36b-5e2a-4c4d-b013-82f95d59d6a0",
+      "title": "Tablet Z",
+      "price": 699,
+      "brand": "TabWorld",
+      "isNew": true,
+      "description": "A versatile tablet for work and entertainment on the go."
+    },
+    {
+      "id": "ee01583d-cdff-451b-9b72-91428f4e9844",
+      "title": "Bluetooth Speaker",
+      "price": 89,
+      "brand": "SoundBlast",
+      "isNew": false,
+      "description": "A portable Bluetooth speaker with superior sound quality."
+    },
+    {
+      "id": "527f484b-7957-4461-a07b-39d10ad9a5b5",
+      "title": "4K Monitor",
+      "price": 399,
+      "brand": "VisionTech",
+      "isNew": true,
+      "description": "A stunning 4K monitor with vibrant color accuracy."
+    },
+    {
+      "id": "4513a374-2b26-4f3c-8cd1-6f899c5f3eaa",
+      "title": "External SSD",
+      "price": 159,
+      "brand": "StoragePlus",
+      "isNew": false,
+      "description": "High-speed external SSD for fast data transfers and storage."
+    },
+    {
+      "id": "a485dd68-03fc-4d2f-a72f-bf1d9f5b4bd7",
+      "title": "Smart Light Bulb",
+      "price": 29,
+      "brand": "BrightHome",
+      "isNew": true,
+      "description": "A smart light bulb that can be controlled via an app."
+    },
+    {
+      "id": "44f09e3f-60d7-4c1e-b8f0-826ed25a6345",
+      "title": "Portable Charger",
+      "price": 49,
+      "brand": "PowerMax",
+      "isNew": false,
+      "description": "A compact portable charger for on-the-go power."
+    },
+    {
+      "id": "7c2e20de-8d6f-442b-8d36-2b0656633828",
+      "title": "Noise-Canceling Earbuds",
+      "price": 149,
+      "brand": "AudioMax",
+      "isNew": true,
+      "description": "Noise-canceling earbuds for an immersive sound experience."
+    },
+    {
+      "id": "529d46cf-2d71-4bb7-830b-0606aaf77e80",
+      "title": "VR Headset",
+      "price": 499,
+      "brand": "VirtualPlay",
+      "isNew": false,
+      "description": "A VR headset for the ultimate virtual reality experience."
+    },
+    {
+      "id": "ab378b32-ff51-46ff-98d6-22fd86b3c37b",
+      "title": "Robot Vacuum",
+      "price": 349,
+      "brand": "CleanBot",
+      "isNew": true,
+      "description": "A smart robot vacuum to clean your home effortlessly."
+    },
+    {
+      "id": "b7d44285-fd91-4e95-8b1c-b47c9fba1e41",
+      "title": "Fitness Tracker",
+      "price": 129,
+      "brand": "HealthGear",
+      "isNew": false,
+      "description": "A fitness tracker with heart rate monitoring and activity tracking."
+    },
+    {
+      "id": "6fa9c582-b62d-44cc-b408-b9b9f88878e8",
+      "title": "Wireless Router",
+      "price": 99,
+      "brand": "NetSpeed",
+      "isNew": true,
+      "description": "A reliable wireless router with fast internet speeds."
+    },
+    {
+      "id": "6a3ed785-b46b-4a71-81d0-33b2f74629b4",
+      "title": "Dash Cam",
+      "price": 179,
+      "brand": "AutoView",
+      "isNew": false,
+      "description": "A dash cam for recording your driving experiences."
+    },
+    {
+      "id": "c78e7050-b47e-4f9c-9a57-0b76e0bc9a0b",
+      "title": "Electric Toothbrush",
+      "price": 69,
+      "brand": "SmileCare",
+      "isNew": true,
+      "description": "An electric toothbrush with advanced cleaning features."
+    },
+    {
+      "id": "8ecf4b86-650b-40cf-80eb-0a6d38b94c57",
+      "title": "E-Reader",
+      "price": 199,
+      "brand": "BookTech",
+      "isNew": false,
+      "description": "A lightweight e-reader for reading digital books on the go."
+    }
+  ]
+}
